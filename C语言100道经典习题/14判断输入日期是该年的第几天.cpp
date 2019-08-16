@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int year,mouth,day,today,sum=0,flag=0;
-    printf("ÇëÊäÈë¡°Äê,ÔÂ,ÈÕ¡±\n");
+    int year,mouth,day,sum=0,flag=0;
+    printf("è¯·è¾“å…¥â€œå¹´,æœˆ,æ—¥â€\n");
     scanf("%d,%d,%d",&year,&mouth,&day);
     mouth=mouth-1;
     for(;mouth>=1;mouth--)
@@ -18,6 +18,6 @@ int main()
         else
             sum+=31;
     }
-    printf("\nÊÇ%dÄêµÄµÚ%dÌì",year,sum+day);
+    printf("\næ˜¯%då¹´çš„ç¬¬%då¤©",year,sum+day);
     return 0;
 }
