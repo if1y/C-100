@@ -2,7 +2,7 @@
 int main()
 {
     double n,sum=0;
-    printf("ÇëÊäÈënµÄÖµ:\n");
+    printf("è¯·è¾“å…¥nçš„å€¼:\n");
     scanf("%lf",&n);
     for(int i=0;i<n;i++)
     {
