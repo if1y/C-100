@@ -4,7 +4,7 @@ int main()
 {
     int a[3],i=0,nmax,max,flag,sum=0;
     double s,p;
-    printf("ÇëÊäÈëÈı±ßµÄÖµ:\n");
+    printf("è¯·è¾“å…¥ä¸‰è¾¹çš„å€¼:\n");
     for(i=0;i<3;i++)
       scanf("%d",&a[i]);
     if(a[0]>a[1])
@@ -22,12 +22,12 @@ int main()
     }
     if(sum>max)
         {
-            printf("ÄÜ¹¹³ÉÈı½ÇĞÎ\n");
+            printf("èƒ½æ„æˆä¸‰è§’å½¢\n");
             p=(a[0]+a[1]+a[2])/2;
-            s=sqrt(p*(p-a[0])*(p-a[1])*(p-a[2]));
-            printf("Èı½ÇĞÎÃæ»ıÎª%.2f",s);
+            s=sqrt(p*(p-a[0])*(p-a[1])*(p-a[2]));   //æµ·ä¼¦å…¬å¼
+            printf("ä¸‰è§’å½¢é¢ç§¯ä¸º%.2f",s);
         }
     else
-        printf("²»ÄÜ¹¹³ÉÈı½ÇĞÎ\n");
+        printf("ä¸èƒ½æ„æˆä¸‰è§’å½¢\n");
     return 0;
 }
