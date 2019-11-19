@@ -1,1 +1,3 @@
-这是个可以在线运行程序的网站：https://repl.it/languages/c
+这两个是可以在线运行程序的网站：
+https://www.onlinegdb.com/
+https://repl.it/languages/c
